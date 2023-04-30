@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+  padding-top: 10px;
+  padding-left: 4px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.block {
+  display: flex;
+}
+.button {
+  height: 30px;
+  width: 110px;
+  border-radius: 10px;
+  transition: 0.5s;
+
+  border: 2px solid lightgrey;
+  color: rgb(4, 4, 4);
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
+.button:nth-child(3) {
+  margin-right: 10px;
+}
+.button:nth-child(3):hover {
+  background: rgb(218, 249, 80);
+}
+.button:nth-child(4):hover {
+  background: rgb(253, 84, 84);
+}
+.text {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  padding-top: 2px;
+}
+.text:nth-child(1) {
+  justify-content: center;
+  background: rgb(149, 223, 255);
+  border-radius: 20%;
+  margin-right: 10px;
+  width: 20px;
+}
+.text:nth-child(2) {
+  background: rgb(243, 237, 230);
+  border-radius: 5px;
+  width: 300px;
+
+  padding-left: 10px;
+  margin-right: 10px;
+}
+.done {
+  height: 30px;
+  width: 228px;
+
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  transition: 0.5s;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  color: rgb(4, 4, 4);
+}
+.done:hover {
+  background-color: rgb(99, 254, 82);
+}
+.redaction {
+  margin-top: 18px;
+}
+.input {
+  height: 30px;
+  width: 326px;
+
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  color: rgb(4, 4, 4);
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  padding-left: 10px;
+  margin-right: 14px;
+}
+.input:focus {
+  border: 2px solid rgb(149, 149, 149);
+  outline: none;
+}

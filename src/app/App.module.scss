@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.background {
+  min-height: 100vh;
+  background-image: url("../image/fon.jpg");
+}
+.container {
+  background-image: url("../image/list.jpg");
+  min-height: 85vh;
+  width: 580px;
+  margin: 0 auto;
+}

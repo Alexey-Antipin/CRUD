@@ -1,0 +1,40 @@
+.block {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.input {
+  height: 40px;
+  width: 420px;
+
+  background: rgb(244, 244, 255);
+  border: 2px solid rgb(139, 139, 139);
+  padding-left: 10px;
+  font-size: large;
+  outline: none;
+}
+.input:focus {
+  border: 2px solid rgb(0, 0, 0);
+}
+.button {
+  height: 40px;
+  width: 150px;
+
+  background-color: rgb(223, 223, 223);
+  border: 2px solid rgb(84, 84, 84);
+  border-radius: 0px 10px 10px 0px;
+  color: rgb(0, 0, 0);
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 4px;
+  font-size: large;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: #53ff59;
+  color: white;
+}
